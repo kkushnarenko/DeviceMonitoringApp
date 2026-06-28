@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceMonitoringApp", "DeviceMonitoringApp.csproj", "{118B2062-54F5-41C5-8111-D61615889468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceMonitoringTest", "..\DeviceMonitoringTest\DeviceMonitoringTest.csproj", "{6D61D464-51B5-4DB9-ACE6-22EE18CF6DE9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{118B2062-54F5-41C5-8111-D61615889468} = {118B2062-54F5-41C5-8111-D61615889468}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{118B2062-54F5-41C5-8111-D61615889468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118B2062-54F5-41C5-8111-D61615889468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118B2062-54F5-41C5-8111-D61615889468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118B2062-54F5-41C5-8111-D61615889468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D61D464-51B5-4DB9-ACE6-22EE18CF6DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D61D464-51B5-4DB9-ACE6-22EE18CF6DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D61D464-51B5-4DB9-ACE6-22EE18CF6DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D61D464-51B5-4DB9-ACE6-22EE18CF6DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
